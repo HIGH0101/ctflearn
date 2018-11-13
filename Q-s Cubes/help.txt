@@ -1,0 +1,33 @@
+Q's cubes are given from an aerial point of view:
+ABCD
+EFGH
+IJKL
+MNOP
+ 
+Here is an album which gives each cube a color: https://imgur.com/a/8ueja
+This is very easy to understand if you can visualize it, so try to understand it visually first, then conceptually.
+ 
+for decoding, As you can see, the folds start from top to bottom, then left to right , and alternate until we have our final pillar. 
+In our example, the message would be read as: OCBNJFGKLHEIMADP
+ 
+Remember, Q's cubes have both letters and numbers on them, so they may not necessarily have only letters.
+ 
+Find Q's secret message hidden in the cubes!
+*Hint: Q has been playing Baseball for 16 years*
+ 
+[coding example]
+Raw Input --> Raw Output
+=======================
+3124     2x2 Grid of Cubes --> 
+				12
+				34
+=======================
+?GB5hZemldai6CF91NKyqSVtuWRpxJO23PIwoQXvsUTrzLM08ED7jbcknfYg4AH!    8x8 Grid of Cubes --> 
+											 ABCDEFGH
+											 IJKLMNOP
+											 QRSTUVWX
+											 YZabcdef
+											 ghijklmn
+											 opqrstuv
+											 wxyz0123
+											 456789?!
